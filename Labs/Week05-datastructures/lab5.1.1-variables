@@ -1,0 +1,29 @@
+Guessing variable tyoes
+  
+    Numbers
+    String
+    List []
+    Tuple ()
+    Dictionary {}
+
+
+a - int 1
+b - float 1
+c - boolean 1
+d - string 1
+e - list 0 array
+f - tuple 1
+g - string 1
+h - dict 1
+i - tuples 0 array
+j - boolean 1
+k - 0 dict
+l - 0 string
+m - dict 1
+n - key 0 array (is nested in the dict)
+o - key value 0 int
+p - key key 0 undefined (the code has a capital N in courseName)
+
+
+
+
