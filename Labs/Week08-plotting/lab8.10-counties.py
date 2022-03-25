@@ -16,7 +16,13 @@ counties = np.random.choice(
 # now we need the number of occurences of each county
 # this returns a tuple of the unique value and how many times they appear
 unique, counts = np.unique(counties, return_counts=True)
+
 # we can now put this into a pie plot
-plt.pie(counts, labels=unique)
+# plt.pie(counts, labels=unique)
+# plt.show()
+
+# we can now put this into a bar chart
+plt.bar(unique, counts)
 
 plt.show()
+
